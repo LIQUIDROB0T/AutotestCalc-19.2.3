@@ -8,5 +8,5 @@ class TestCalc:
     def test_subtraction_correct(self):
         assert self.calc.subtraction(self, 2, 2) == 0
 
-    def test_adding_failed(self):
+    def test_adding_correct(self):
         assert self.calc.adding(self, 2, 2) == 4
